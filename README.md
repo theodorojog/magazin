@@ -31,3 +31,10 @@ Functionalitati ale programului, prin intermediul clasei Service: -Adaugarea de 
 Functionalitati care trebuiau sa fie in program: 
 -Gestionarea produselor 
 -Modificarea datelor precum procentul de reducere
+
+Etapa II:
+Clasa CsvLoader a fost creata pentru deschiderea si crearea fisierelor .csv
+Clasa CsvLucratorComercial este folosita pentru a formata,citi si scrie datele sub format .csv pentru obiecte de tip LucratorComercial
+Clasa Paznic este folosita pentru a formata,citi si scrie datele sub format .csv pentru obiecte de tip Paznic
+
+Clasa Logger este folosita pentru a inregistra scrierea si citirea din fisierele .csv
