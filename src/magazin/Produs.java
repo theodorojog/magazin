@@ -1,12 +1,13 @@
+package magazin;
+
 public class Produs {
     static int nrProduse=0;
     String cod;
     String nume;
-    int pret;
-    int laRaft;
-    int inDepozit;
-    int reducere;
-    Distribuitor distribuitor;
+    private int pret;
+    private int laRaft;
+    private int inDepozit;
+    private int reducere;
 
     Produs(String cod,String nume,int pret,int laRaft,int inDepozit,int reducere,Distribuitor distribuitor){
         this.cod=cod;
@@ -15,7 +16,6 @@ public class Produs {
         this.laRaft=laRaft;
         this.inDepozit=inDepozit;
         this.reducere=reducere;
-        this.distribuitor=distribuitor;
     }
     Produs(){
         this.cod="nedefinit";
