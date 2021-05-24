@@ -5,8 +5,8 @@ public class LucratorComercial extends Angajat{
     private String departament;
     private int bonusSalariu;
 
-    public LucratorComercial(String nume, String telefon, String departament, int bonusSalariu) {
-        super(nume, telefon);
+    public LucratorComercial(int id,String nume, String telefon, String departament, int bonusSalariu) {
+        super(id,nume, telefon);
         this.departament = departament;
         this.bonusSalariu = bonusSalariu;
     }

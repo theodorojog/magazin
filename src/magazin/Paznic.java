@@ -4,8 +4,8 @@ public class Paznic extends Angajat{
     private static int salariuBaza=0;
     private int tura,bonusSalariu;
 
-    public Paznic(String nume, String telefon, int tura, int bonusSalariu) {
-        super(nume, telefon);
+    public Paznic(int id, String nume, String telefon, int tura, int bonusSalariu) {
+        super(id,nume, telefon);
         this.tura = tura;
         this.bonusSalariu = bonusSalariu;
     }

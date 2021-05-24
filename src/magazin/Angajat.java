@@ -1,16 +1,18 @@
 package magazin;
 
 public class Angajat {
+    private int id;
     private String nume, telefon;
 
-    public Angajat(String nume, String telefon) {
+    public Angajat(int id,String nume, String telefon) {
+        this.id=id;
         this.nume = nume;
         this.telefon = telefon;
     }
 
     @Override
     public String toString() {
-        return "Nume: " + nume +"\nTelefon: " + telefon+"\n";
+        return "ID: "+id+" Nume: " + nume +"\nTelefon: " + telefon+"\n";
     }
 
     public String getNume() {
