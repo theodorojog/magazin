@@ -38,3 +38,6 @@ Clasa CsvLucratorComercial este folosita pentru a formata,citi si scrie datele s
 Clasa Paznic este folosita pentru a formata,citi si scrie datele sub format .csv pentru obiecte de tip Paznic
 
 Clasa Logger este folosita pentru a inregistra scrierea si citirea din fisierele .csv
+
+Etapa III:
+Functionalitati de citire si scriere intr-o baza de date au fost adaugate pentru clasa Angajat si subcalsele sale, Lucrator Comercial si Paznic
