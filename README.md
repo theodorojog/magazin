@@ -32,6 +32,8 @@ Functionalitati care trebuiau sa fie in program:
 -Gestionarea produselor 
 -Modificarea datelor precum procentul de reducere
 
+deasemenea test automate
+
 Etapa II:
 Clasa CsvLoader a fost creata pentru deschiderea si crearea fisierelor .csv
 Clasa CsvLucratorComercial este folosita pentru a formata,citi si scrie datele sub format .csv pentru obiecte de tip LucratorComercial
